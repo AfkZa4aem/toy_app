@@ -75,6 +75,12 @@ GEM
     multi_json (1.12.1)
     nokogiri (1.7.1-x86-mingw32)
       mini_portile2 (~> 2.1.0)
+    postmark (1.10.0)
+      json
+      rake
+    postmark-rails (0.15.0)
+      actionmailer (>= 3.0.0)
+      postmark (~> 1.10.0)
     rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -148,6 +154,8 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
+  postmark
+  postmark-rails
   rails (= 4.2.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
