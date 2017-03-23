@@ -24,6 +24,6 @@ module ToyApp
     config.active_record.raise_in_transactional_callbacks = true
 
     config.action_mailer.delivery_method = :postmark
-config.action_mailer.postmark_settings = { :api_token => "91e85b9e-402b-4948-8ee0-d166dadd4aff" }
+    config.action_mailer.postmark_settings = { :api_token => "91e85b9e-402b-4948-8ee0-d166dadd4aff" }
   end
 end
